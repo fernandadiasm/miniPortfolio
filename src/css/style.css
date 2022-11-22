@@ -1,0 +1,274 @@
+body {
+    background-image: url(../img/bg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'VT323', monospace;
+    color: #f3f3f3;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    padding: 30px;
+}
+
+.card {
+    background: rgba(7, 13, 18, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(7, 13, 18, 0.01);
+    width: 370px;
+    /* border: 2px solid #dbaed9; */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #070d12b4 0px 5px 15px;
+}
+
+.card .my-infos {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card .my-infos img  {
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    border: 3px solid #efb8cc;
+}
+
+.card .my-infos .name {
+    font-size: 26px;
+    font-weight: normal;
+    color: #efb8cc;
+}
+
+.card .my-infos .office {
+    font-size: 22px;
+    font-weight: normal;
+    color: #ffffff;
+    padding-bottom: 18px;
+}
+
+.card .content {
+    margin-top: 15px;
+}
+
+.card .tabs {
+    display: flex;
+}
+
+.card .tabs img {
+    width: 35px;
+    height: 35px;
+}
+
+.card .tabs .tab {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.card .tabs .tab.selected {
+    background-color: #262626;
+}
+
+.card .infos-tabs {
+    background-color: #262626;
+}
+
+.card .tabs .tab:hover {
+    background-color: #414141;
+}
+
+.infos-tabs .info {
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+  }
+  
+  .infos-tabs .info.selected {
+    display: block;
+  }
+  
+  .infos-tabs .sub-title {
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .infos-tabs .description {
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 15px;
+  }
+  
+  .infos-tabs .description span {
+    color: #efb8cc;
+  }
+  
+  .infos-tabs .description a {
+    color: #efb8cc;
+  }
+  
+  .infos-tabs .description a:hover {
+    color: #4bdff1;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .my-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    max-height: 180px;
+    overflow-y: auto;
+  }
+  
+  .my-projects li a {
+    width: 250px;
+    color: #F3F3F3;
+    padding: 11.7px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .my-projects .project {
+    background-color: #A33652;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .my-projects .project:hover {
+    background-color: #ad6173;
+  }
+  
+  .my-projects .project img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-left: 83%;
+  }
+  
+  .social-networks {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    max-height: 180px;
+    overflow-y: auto;
+  }
+  
+  .social-networks li a {
+    width: 250px;
+    display: block;
+    color: #F3F3F3;
+    text-align: center;
+    padding: 9.2px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .social-networks .cv,
+  .linkedin,
+  .github,
+  .instagram {
+    background-color: #A33652;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15x;
+  }
+  
+  .social-networks .cv:hover {
+    background-color: #ad6173;
+  }
+  
+  .social-networks .cv img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  
+  .social-networks .linkedin:hover {
+    background-color: #ad6173;
+  }
+  
+  .social-networks .linkedin img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .social-networks .github:hover {
+    background-color: #ad6173;
+  }
+  
+  .social-networks .github img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .social-networks .instagram:hover {
+    background-color: #ad6173;
+  }
+  
+  .social-networks .instagram img {
+    width: 25px;
+    height: 25px;
+  }
+
+
+
+  /* animation home */
+  .card p span.typed__text {
+    font-weight: normal;
+    color: pink;
+}
+
+.card p span.cursor {
+    display: inline-block;
+    background-color: rgb(5, 5, 5);
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+
+.card p span.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0% {
+        background-color: #ccc;
+    }
+
+    49% {
+        background-color: #ccc;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    99% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: #ccc;
+    }
+}

@@ -43,6 +43,7 @@ function type() {
 
 
 
+//tabs
 const tabs = document.querySelectorAll(".tab");
 
 tabs.forEach(tab => {

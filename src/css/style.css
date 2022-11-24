@@ -1,3 +1,7 @@
+:root {
+  --background-tab: #262626;
+}
+
 body {
     background-image: url(../img/bg.gif);
     background-repeat: no-repeat;
@@ -50,10 +54,12 @@ body {
 }
 
 .card .my-infos .office {
+    width: 238px;
     font-size: 22px;
     font-weight: normal;
     color: #ffffff;
-    padding-bottom: 18px;
+    padding: 0 0 18px 18px;
+
 }
 
 .card .content {
@@ -79,7 +85,7 @@ body {
 }
 
 .card .tabs .tab.selected {
-    background-color: #262626;
+    background-color: var(--background-tab);
 }
 
 .card .infos-tabs {
@@ -235,20 +241,20 @@ body {
 
 
   /* animation home */
-  .card p span.typed__text {
+  .card h2 span.typed__text {
     font-weight: normal;
     color: pink;
 }
 
-.card p span.cursor {
+.card h2 span.cursor {
     display: inline-block;
-    background-color: rgb(5, 5, 5);
+    background-color: #ccc;
     margin-left: 0.1rem;
     width: 3px;
     animation: blink 1s infinite;
 }
 
-.card p span.cursor.typing {
+.card h2 span.cursor.typing {
     animation: none;
 }
 

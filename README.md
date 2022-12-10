@@ -21,7 +21,7 @@
 Portfólio desenvolvido para apresentar um pouco sobre meus objetivos, projetos e redes sociais
 </p>
 
-[🔗 É possível acessar o meu portfólio clicando aqui! 💜](https://mini-portfolio-fernandadiasm.vercel.app/)
+[🔗 É possível acessar o meu portfólio clicando aqui! 💜](https://mini-portfolio-xi.vercel.app/#)
 
 ## 🚀 Tecnologias
 
